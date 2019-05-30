@@ -1,0 +1,111 @@
+body{
+    background-color: #FFFFFF;
+}
+#blocTotal{
+    width: 550px;
+    margin: auto;
+    font-size: 16px;
+    font-family: Calibri, Tahoma, sans-serif;
+    padding: 5px;
+    border: 5px solid #6A3292;
+    border-radius: 10px;
+    box-shadow: 2px 4px 3px black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+
+/*                    Bloc Gauche                             */
+#coteGauche div img{
+    height: 250px;
+    width: auto;
+}
+
+/*                         Bloc Droit                       */
+
+#coteDroit #bloc1{
+    /*border: 3px solid black;*/
+    width: 100%;
+    height: 90px;
+    font-family: serif;*/
+    padding: 0px;
+    margin: auto;
+}
+
+/*  Alignement  */
+#coteDroit #bloc1 div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+/* Alignement + modification web developpeuse */
+#coteDroit #bloc1 div #TexteT{
+    margin-top: 6px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+
+#imageG, #imageD{
+      padding-top: 20px;
+      margin-bottom: 0px;
+      padding-bottom: 5px;
+}
+#coteDroit #bloc1 div #TexteT{
+      padding-top: 19px;
+      margin-bottom: 0px;
+      padding-bottom: 7px;
+}
+
+
+/* taille de l'image */
+img{
+    height: 30px;
+    width: auto;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+/* Alignement + modification texte du bas */
+#bloc1 #pCommentaire{
+      font-style: italic;
+      font-size: 15px;
+      margin-top: 0px;
+      margin-left: 70px;
+}
+#bloc1 #pCommentaire span{
+      font-weight: bold;
+      font-size: 17px;
+}
+
+#info{
+    padding-left: 15px;
+    width: 350px;
+    border-top: 3px solid black;
+    margin-left: 5px;
+}
+#info .symbol{
+    font-weight: bold;
+    font-size: 40px;
+}
+#info .mailNum{
+    padding-left: 40px;
+}
+
+
+
+/*                          Liens                   */
+#info #github{
+    width: 25px;
+    height: 25px;
+    margin-top: 130px;
+    margin-right: 0px;
+}
+#info #in{
+    width: 25px;
+    height: 25px;
+    margin-top: 130px;
+    margin-right: 15px;
+    margin-left: 2px;
+}
