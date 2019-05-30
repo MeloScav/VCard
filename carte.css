@@ -42,8 +42,11 @@ body{
 }
 /* Alignement + modification web developpeuse */
 #coteDroit #bloc1 div #TexteT{
-    margin-top: 6px;
-    font-size: 22px;
+    background: -webkit-linear-gradient(#6BC2FE, #651387);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 4px;
+    font-size: 27px;
     font-weight: bold;
 }
 
@@ -84,6 +87,9 @@ img{
     width: 350px;
     border-top: 3px solid black;
     margin-left: 5px;
+}
+#info strong{
+    font-size: 19px;
 }
 #info .symbol{
     font-weight: bold;
